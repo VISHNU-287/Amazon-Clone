@@ -1,0 +1,194 @@
+body{
+  margin:0;
+  padding-top:62px;
+  border:1px solid gray;
+  font-family:arial;
+}
+.header-main-container{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  height:60px;
+  background-color:black;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+}
+.header-left-container{
+  width:140px;
+  margin-left:22px;
+  margin-top:5px;
+}
+.Amazon-logo-image{
+  width:95px;
+  height:30px;
+}
+.header-middle-containers{
+  flex:1;
+  display:flex;
+}
+.input-search{
+  height:35px;
+  width:0;
+  flex:1;
+  max-width:850px;
+  font-size:15px;
+  padding-left:15px;
+  vertical-align:center;
+}
+.search-button{
+  border:none;
+  height: 40px;
+  width:47px;
+  background-color:rgb(254, 189, 105);
+  margin-left:-1px;
+  margin-top:0.2px;
+}
+.search-button-image{
+  width:25px;
+  height:25px;
+}
+.header-last-container{
+  width:205px;
+  color:white;
+  display:flex;
+  justify-content:space-between;
+}
+.return-page{
+  width:61px;
+  display:flex;
+  flex-direction: column;
+  margin-left:10px;
+  margin-right:-20px;
+  padding:3px 3px 3px 3px;
+  border:1.5px solid transparent;
+}
+.link-text{
+  text-decoration:none;
+  color:white;
+}
+.return-text{
+  font-size:16px;
+}
+.order-text{
+  font-size:18px;
+  
+}
+.add-to-cart-page{
+  width:90px;
+  display:flex;
+  margin-right:25px;
+  padding-top:5px;
+  border:1.5px solid transparent;
+  position:relative;
+}
+.add-to-cart-page:hover,.return-page:hover{
+  border:1.5px solid white;
+  cursor:pointer;
+}
+.cart-icon-images{
+  height:35px;
+  width:56px;
+}
+.cart-text{
+  font-size:20px;
+  margin-top:10px;
+}
+.display-cart-number{
+  position:absolute;
+  right:75px;
+  top:10px;
+  font-size:17px;
+  color:rgb(221, 85, 6);
+}
+
+/*  style for Grid Box */ 
+.main-body-container-Phase-I{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+
+
+ }
+
+  /* Styles for Each Specific  Container*/ 
+  .main-containers{
+  height:500px;
+  padding:20px 20px 20px 20px;
+  border:1px solid gray;
+  }
+  .common-image-style{
+    width:100%;
+    height:250px;
+  }
+  .Product-description{
+    font-size:20px;
+  }
+  .rating-count-container{
+    margin-top:15px;
+  }
+  .stars-detail{
+    width:120px;
+    height:25px;
+  }
+  .count-font{
+    color:rgb(8, 149, 231);
+    font-size:20px;
+  }
+  .rupees-style{
+    font-size:25px;
+    margin:0;
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+  .quantity-box-style{
+    width:50px;
+    height:30px;
+    font-size:15px;
+  }
+  .Added-ackno{
+    height:40px;
+  }
+  .add-to-cart-button-style{
+    height:30px;
+    width:100%;
+    font-size:15px;
+    background-color:rgb(222, 238, 4);
+    border:none;
+    border-radius:16px;
+  }
+  
+  /*  Styles for the Inputs */
+  .image-passing-style,.description-style,.stars-style,.cost-style{
+    height:30px;
+    width:300px;
+    border:2px solid green;
+    font-size:15px;
+  }
+  .RemoveIndex,.CountToRemove{
+    height:30px;
+    width:300px;
+    border:2px solid red;
+    font-size:15px;
+  }
+  .Item-Add-Button-style{
+    height:30px;
+    border:none;
+    background-color:green;
+    color:white;
+    font-size:20px;
+    margin-top:10px;
+    border-radius:5px;
+    Cursor:pointer;
+    display:block;
+  }
+  .Remove-to-cart-button-style,.Remove-Selected-Items{
+    height:30px;
+    border:none;
+    background-color:red;
+    color:white;
+    font-size:20px;
+    margin-top:10px;
+    border-radius:5px;
+    Cursor:pointer;
+  }

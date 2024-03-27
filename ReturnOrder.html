@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Return & Order</title>
+  <link rel="stylesheet" href="ReturnOrder.css">
+</head>
+<body>
+  <div class="header-container">
+    <div class="left-header-container">
+        <div class="left-left-container">
+        <div class="left-left-uptext">Order Placed:</div>
+      <div class="left-left-downtext">March 21</div>
+    </div>
+        <div class="left-right-container">
+            <div class="left-right-uptext">Total:<span id="totalmoney-id">0</span></div>
+            <div class="left-right-downtext"></div>
+        </div>
+    </div>
+    <div class="right-header-container">
+      <div>
+        <div class="right-uptext">Order ID:</div>
+        <div class="right-downtext">27sjss-763873sjhksdf-287823bdfgh-2389</div>
+      </div>
+    </div>
+  </div>
+  <!--Below code for grid  main body-->
+<div class="main-container-orders" id="main-container-orders-id">
+
+  
+</div>
+
+</body>
+<script  type="module" >
+  import{CartHtmlCreationPhaseI,externaldisplacart,CartHtmlCreation} from './Amazon.js';
+  import{totalcash,TotalMoney} from './Amazon.js';
+
+  CartHtmlCreationPhaseI();
+  externaldisplacart();
+  TotalMoney();
+  CartarrayPhaseI.splice(0,2);
+  localStorage.setItem('StorageCartPhaseI',JSON.stringify(CartarrayPhaseI));
+</script>
+</html>
