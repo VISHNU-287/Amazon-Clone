@@ -35,43 +35,20 @@
      <!-- The Below area is for the Main Contents of Grid Box-->
      <div class="main-body-container-Phase-I" id="main-body-Grid Container">
     </div>
-    <!--Code for Developers site-->
-    <!--GUI for Input -->
-    <input id="Product-image-passing" class="image-passing-style" placeholder="Give Images Input">
-    <input id="Product-description-passing" class="description-style" placeholder="Give description Input">
-    <input id="Product-Stars-passing" class="stars-style" placeholder="Give Stars Input">
-    
-    <input id="Product-Cost-passing" class="cost-style" placeholder="Enter The Amount">
-    <button class="Item-Add-Button-style">Add the Items</button>
-    <input class="RemoveIndex" id="index" placeholder="Enter Index To Remove">
-    <input class="CountToRemove" id="numbers" placeholder="Enter Number of Item To Remove">
-    
-    <button class="Remove-Item-Begin Remove-to-cart-button-style">Remove Item From Beginning</button>
-    <button class="Remove-Item-Last Remove-to-cart-button-style">Remove Item From Last</button>
-    <button class="Remove-Selected-Items">Selected Item To Remove</button>
-
-    
+   
 
 </body>
 <script  type="module" >
 
-  import{arrayPhaseI,CartarrayPhaseI,reo} from './Amazon.js';
-  import{objectPhaseIfunction,HtmlCreationPhaseI,CartobjectPhaseIfunction,addtocartdisplay} from './Amazon.js';
+  import{arrayPhaseI,CartarrayPhaseI} from './Amazon.js';
+  import{HtmlCreationPhaseI,CartobjectPhaseIfunction,addtocartdisplay} from './Amazon.js';
 
   import{RemoveFromBegin,RemoveFromEnd,SelectedRemove} from './Amazon.js';
   import{CartHtmlCreationPhaseI} from './Amazon.js';
+  import{addAckno} from './Amazon.js';
 
   HtmlCreationPhaseI();
   addtocartdisplay();
-
-document.querySelector('.Item-Add-Button-style').addEventListener('click',objectPhaseIfunction);
-
-document.querySelector('.Remove-Item-Begin').addEventListener('click',RemoveFromBegin);
-
-document.querySelector('.Remove-Item-Last').addEventListener('click',RemoveFromEnd);
-
-document.querySelector('.Remove-Selected-Items').addEventListener('click',SelectedRemove);
-console.log(CartarrayPhaseI.length);
 
 
 </script>
