@@ -5,7 +5,7 @@
 {image:'image4.jpg',description:'Black Sun Glass',starsCount:{stars:"rating-30.png",count:434},rupees:499},
 {image:'image5.jpg',description:'women-stretch-popover-hoodie-Black',starsCount:{stars:"rating-25.png",count:323},rupees:2999},
 {image:'image6.jpg',description:'plain-hooded-fleece-sweatshirt-yellow',starsCount:{stars:"rating-45.png",count:768},rupees:699},
-{image:'image7.jpg',description:'liquid-laundry-detergent-lavender',starsCount:{stars:"rating-50.png",count:787809},rupees:15000},
+{image:'image7.jpg',description:'liquid-laundry-detergent-lavender',starsCount:{stars:"rating-50.png",count:7879},rupees:15000},
 {image:'image8.jpg',description:'adults-plain-cotton-tshirt-2-pack-black',starsCount:{stars:"rating-45.png",count:67879},rupees:1999}
 ];  
  export function HtmlCreationPhaseI(){
