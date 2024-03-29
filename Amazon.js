@@ -1,41 +1,21 @@
- export let arrayPhaseI = JSON.parse(localStorage.getItem('StorageArrayPhaseI')) || [];
- export function objectPhaseIfunction(){
-   let objectPhaseI = {
-    image:'',description:'',strasCount:{stars:'',count:0},rupees:''
-    }
-  
-     let Image = document.getElementById('Product-image-passing').value;
-     let Description = document.getElementById('Product-description-passing').value;
-     let Stars = document.getElementById('Product-Stars-passing').value;
-     let Rupees = document.getElementById('Product-Cost-passing').value;
-
-     objectPhaseI.image=Image;
-     objectPhaseI.description=Description;
-     objectPhaseI.strasCount.stars=Stars;
-     objectPhaseI.rupees=Rupees;
-
-     arrayPhaseI.push(objectPhaseI);
-
-     localStorage.setItem('StorageArrayPhaseI',JSON.stringify(arrayPhaseI));
-
-     document.getElementById('Product-image-passing').value= ``;
-     document.getElementById('Product-description-passing').value = ``;
-     document.getElementById('Product-Stars-passing').value = ``;
-     document.getElementById('Product-Cost-passing').value = ``;
-
-     HtmlCreationPhaseI();
-  }
-
-
-   
+ export let arrayPhaseI = [
+ {image:'image1.jpg',description:'Redmi Note 11 Pro',starsCount:{stars:"rating-50.png",count:1234},rupees:14999}
+ ,{image:'image2.jpg',description:'Basket Ball',starsCount:{stars:"rating-45.png",count:667},rupees:1999}
+,{image:'image3.jpg',description:'Luxary Towel 4sets',starsCount:{stars:"rating-50.png",count:8988},rupees:2999},
+{image:'image4.jpg',description:'Black Sun Glass',starsCount:{stars:"rating-30.png",count:434},rupees:499},
+{image:'image5.jpg',description:'women-stretch-popover-hoodie-Black',starsCount:{stars:"rating-25.png",count:323},rupees:2999},
+{image:'image6.jpg',description:'plain-hooded-fleece-sweatshirt-yellow',starsCount:{stars:"rating-45.png",count:768},rupees:699},
+{image:'image7.jpg',description:'liquid-laundry-detergent-lavender',starsCount:{stars:"rating-50.png",count:787809},rupees:15000},
+{image:'image8.jpg',description:'adults-plain-cotton-tshirt-2-pack-black',starsCount:{stars:"rating-45.png",count:67879},rupees:1999}
+];  
  export function HtmlCreationPhaseI(){
     let htmlGeneratePhaseI =  ``;
     for(let i=0; i< arrayPhaseI.length; i++){
       htmlGeneratePhaseI += `
       <div class="main-containers">
-    <div><img src="images/${arrayPhaseI[i].image}" class="common-image-style"></div>
+    <div class="product-image-container"><img src="images/${arrayPhaseI[i].image}" class="common-image-style"></div>
     <div class="Product-description">${arrayPhaseI[i].description}</div>
-    <div class="rating-count-container"><img src="images/${arrayPhaseI[i].strasCount.stars}" class="stars-detail"><span class="count-font">87</span></div>
+    <div class="rating-count-container"><img src="images/${arrayPhaseI[i].starsCount.stars}" class="stars-detail"><span class="count-font">${arrayPhaseI[i].starsCount.count}</span></div>
     <p class="rupees-style">&#x20B9; ${arrayPhaseI[i].rupees}</p>
     <select class="quantity-box-style quantity-to-add">
       <option value="1">1</option>
@@ -185,11 +165,15 @@ export  let totalcash = 0;
 
 // temporarly remove cart quantity
 
- export function reo(){
+  function reo(){
   CartarrayPhaseI.splice(0,2);
   localStorage.setItem('StorageCartPhaseI',JSON.stringify(CartarrayPhaseI));
 }
 
+// js code for click acknowledgement
+export function addAckno(){
+  document.querySelector('.Added-ackno').innerHTML = '&check; Added';
+ }
 
 
 
