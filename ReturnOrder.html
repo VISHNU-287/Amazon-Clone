@@ -5,31 +5,75 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Return & Order</title>
   <link rel="stylesheet" href="ReturnOrder.css">
+  <link rel="stylesheet" href="Amazon.css">
 </head>
 <body>
+  <div class="header-main-container">
+    <!--Left Header-Section -->
+      <div class="header-left-container">
+        <a href="Amazon.html"><img src="images/Amazon-logo.png" class="Amazon-logo-image"></a>
+      </div>
+    <!--Middle Header-Section-->
+      <div class="header-middle-containers">
+        <input type="text" class="input-search" placeholder="Search Here">
+        <button class="search-button"><img src="images/search-icon.png" class="search-button-image"></button>
+        
+      </div>
+      <!--Right Header-Section-->
+      <div class="header-last-container">
+        <div class="display-cart-number" id="displays-cart-numbers">0</div>
+      <a href="ReturnOrder.html" class="link-text"><div class="return-page">
+         <div class="return-text">Returns</div>
+         <div class="order-text">&orders</div>
+       </div>
+      </a>
+       <a href="Checkout.html" class="add-to-cart-link"><div class="add-to-cart-page">
+        <div><img src="images/cart-icon.png" class="cart-icon-images"></div>
+        <div class="cart-text">cart</div>
+       </div></a>
+    </div>
+    </div>
+     <!-- The Below area is for the Main Contents of Grid Box-->
+     <div class="main-body-container-Phase-I" id="main-body-Grid Container">
+    </div>
+  <!---->
+  <div class="header-header">
+
+
   <div class="header-container">
+
+    
     <div class="left-header-container">
         <div class="left-left-container">
         <div class="left-left-uptext">Order Placed:</div>
       <div class="left-left-downtext">March 21</div>
     </div>
+
+
         <div class="left-right-container">
-            <div class="left-right-uptext">Total:<span id="totalmoney-id">0</span></div>
-            <div class="left-right-downtext"></div>
+            <div class="left-right-uptext">Total:&#x20B9;<span id="totalmoney-id">0</span></div>          
         </div>
+
     </div>
+
+
+
+
     <div class="right-header-container">
-      <div>
+      <div class="right-right-container">
         <div class="right-uptext">Order ID:</div>
         <div class="right-downtext">27sjss-763873sjhksdf-287823bdfgh-2389</div>
       </div>
     </div>
   </div>
+  </div>
   <!--Below code for grid  main body-->
+  <div class="main-main-main-container">
 <div class="main-container-orders" id="main-container-orders-id">
 
   
 </div>
+  </div>
 
 </body>
 <script  type="module" >
@@ -39,7 +83,6 @@
   CartHtmlCreationPhaseI();
   externaldisplacart();
   TotalMoney();
-  CartarrayPhaseI.splice(0,2);
   localStorage.setItem('StorageCartPhaseI',JSON.stringify(CartarrayPhaseI));
 </script>
 </html>
