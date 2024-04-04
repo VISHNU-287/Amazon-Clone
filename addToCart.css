@@ -1,0 +1,179 @@
+body{
+  font-family:arial;
+  padding-top:125px;
+  padding-left:150px;
+  padding-right:150px;
+  padding-bottom:200000px;
+}
+.header-main-container{
+  display:flex;
+  flex:1;
+  height:60px;
+  align-items:center;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  z-index:100;
+  background-color:white;
+}
+.header-left-container{
+  flex:2;
+  display:flex;
+  justify-content:center;
+}
+.black-amazon-logo-style{
+  height:35px;
+  width:100px;
+  
+}
+.header-center-container{
+  flex:3.8;
+  display:flex;
+  justify-content:center;
+}
+.checkout-font{
+  font-size:30px;
+}
+.item-font{
+  color:rgb(11, 136, 136);
+}
+.header-right-container{
+  flex:1;
+}
+
+/* css code for main body */
+
+.overall-page-container{
+  display:grid;
+  grid-template-columns:2fr 1fr;
+  column-gap:10px;
+}
+.specific-main-container{
+  border:1px solid gray;
+  border-radius:5px;
+  padding-left:20px;
+  padding-top:20px;
+  width:700px;
+  margin-bottom:10px;
+}
+
+.font-style-delivery{
+  color:green;
+  font-size:22px;
+  margin-bottom:10px;
+}
+
+
+.specific-grid-container{
+  display:grid;
+  grid-template-columns:120px 1fr 1fr;
+  width:700px;
+  column-gap:10px;
+}
+.image-containers{
+
+}
+.image-styles{
+  width:100%;
+  height:170px;
+}
+.product-details-container{
+ 
+}
+.product-description{
+  height:45px;
+}
+.product-description,.product-cost{
+  font-size:18px;
+  margin-bottom:10px;
+}
+.product-cost{
+  color:rgb(252, 152, 21);
+}
+.product-quantity,.product-update,.product-delete{
+  font-size:18px;
+  margin-right:10px;
+}
+.product-update:hover,.product-delete:hover{
+  color:red;
+}
+/* css code for Delivery Container */
+
+.main-container-options{
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+}
+.delivery-option-text{
+  margin:0;
+  font-size:18px;
+  margin-bottom:10px;
+}
+
+.option-main-container{
+  display:flex;
+  align-items:center;
+  margin-bottom:20px;
+}
+.input-button{
+  margin-right:10px;
+}
+.label-1{
+color:green;
+font-size:18px;
+cursor:pointer;
+}
+.label-2{
+  color:gray;
+  font-size:15px;
+  margin-left:2px;
+  cursor:pointer;
+}
+/*Css code for payment page */
+
+.payment-overall-container{
+  width:325px;
+  border:1px solid gray;
+  border-radius:4px;
+  padding:15px 20px 20px 20px;
+  height:320px;
+}
+.calculate-cost-item-container,.calculate-cost-shipping-container,.calculate-cost-beforetax-container,.calculate-cost-Estimated-tax-container,.calculate-cost-Total-container{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+.paypal-option-container{
+  margin-top:20px;
+  display:flex;
+  align-items:center;
+  justify-content:start;
+  column-gap: 10px;
+}
+.item-text,.rupees,.shipping-text,.totalBefore-text,.estimated-text,.paypal-text{
+  font-size:17px;
+  margin-bottom:10px;
+}
+.line-difference{
+  height:1px;
+  background-color:rgb(255, 129, 11);
+}
+.order-total-text,.rupees-total{
+  font-size:20px;
+  color:brown;
+}
+.checkbox-font{
+  height:20px;
+  width:20px;
+}
+.final-order-button{
+  height:40px;
+  width:100%;
+  font-size:17px;
+  border:none;
+  border-radius:3px;
+  background-color:rgb(252, 214, 0);
+  margin-top:20px;
+}
+
