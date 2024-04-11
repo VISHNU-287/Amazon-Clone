@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Amazon.css">
+  
+  <title>Amazon</title>
+</head>
+<body>
+  <div class="header-main-container">
+    <!--Left Header-Section -->
+      <div class="header-left-container">
+        <img src="images/Amazon-logo.png" class="Amazon-logo-image">
+      </div>
+    <!--Middle Header-Section-->
+      <div class="header-middle-containers">
+        <input type="text" class="input-search" placeholder="Search Here">
+        <button class="search-button"><img src="images/search-icon.png" class="search-button-image"></button>
+      </div>
+      <!--Right Header-Section-->
+      <div class="header-last-container">
+        <div class="display-cart-number" id="displays-cart-numbers">0</div>
+      <a href="ReturnOrder.html" class="link-text"><div class="return-page">
+         <div class="return-text">Returns</div>
+         <div class="order-text">&orders</div>
+       </div>
+      </a>
+       <a href="Checkout.html" class="add-to-cart-link"><div class="add-to-cart-page">
+        <div><img src="images/cart-icon.png" class="cart-icon-images"></div>
+        <div class="cart-text">cart</div>
+       </div></a>
+    </div>
+    </div>
+     <!-- The Below area is for the Main Contents of Grid Box-->
+     <div class="main-body-container-Phase-I" id="main-body-Grid Container">
+    </div>
+   
+
+</body>
+<script  type="module" >
+
+  import{arrayPhaseI,CartarrayPhaseI} from './Amazon.js';
+  import{HtmlCreationPhaseI,CartobjectPhaseIfunction,addtocartdisplay} from './Amazon.js';
+
+  import{CartHtmlCreationPhaseI,function1} from './Amazon.js';
+  import{addAckno} from './Amazon.js';
+
+  HtmlCreationPhaseI();
+  addtocartdisplay();
+
+
+</script>
+
+</html>
