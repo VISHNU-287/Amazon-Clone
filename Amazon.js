@@ -4,7 +4,7 @@ import dayjs from 'https://unpkg.com/dayjs@1.11.10/esm/index.js';
  {image:'image1.jpg',description:'Redmi 13C 5G  8GB RAM 256GB Storage',starsCount:{stars:"rating-50.png",count:1234},rupees:13999}
  ,{image:'image2.jpg',description:'iQOO Z6 Lite 5G Snapdragon 4 Gen 1 Processor',starsCount:{stars:"rating-45.png",count:667},rupees:10999}
 ,{image:'image9.jpg',description:'Vivo Y200 5G (Desert Gold, 8GB RAM, 256GB)',starsCount:{stars:"rating-50.png",count:1234},rupees:23999},
-{image:'image10.jpg',description:'realme 11 5G (Glory Gold, 8GB RAM, 256GB Storage)',starsCount:{stars:"rating-50.png",count:1234},rupees:17999},
+{image:'image10.jpg',description:'realme 11 5G (Glory Gold, 8GB RAM, 256GB)',starsCount:{stars:"rating-50.png",count:1234},rupees:17999},
 {image:'image11.jpg',description:'TECNO POP 8 White,(8GB*+64GB)5000mAh Battery',starsCount:{stars:"rating-50.png",count:1234},rupees:6799},
 {image:'image12.jpg',description:'HONOR X9b 5G |Anti-Drop Curved AMOLED Display',starsCount:{stars:"rating-50.png",count:1234},rupees:25999},
 {image:'image13.jpg',description:'Lenovo Legion Pro 7 Intel Core i9-13900HX 16"',starsCount:{stars:"rating-50.png",count:8988},rupees:293990},
@@ -20,11 +20,11 @@ import dayjs from 'https://unpkg.com/dayjs@1.11.10/esm/index.js';
 {image:'image21.jpg',description:'Monte Carlo Mens Striped Cotton Blend Polo',starsCount:{stars:"rating-30.png",count:434},rupees:945},
 {image:'image5.jpg',description:'Mens Raglan Full Sleeves Gym Regular Fit T-Shirt',starsCount:{stars:"rating-25.png",count:323},rupees:349},
 {image:'image6.jpg',description:'TIMEX Analog Blue Dial Boys Genuine Leather',starsCount:{stars:"rating-45.png",count:768},rupees:4495},
-{image:'image7.jpg',description:'Fusion Analog Brown Dial Mens Watch-TWEG18903',starsCount:{stars:"rating-50.png",count:787809},rupees:4595},
-{image:'image22.jpg',description:'Neo Iv Analog Black Dial Mens Watch',starsCount:{stars:"rating-50.png",count:787809},rupees:6155},
-{image:'image23.jpg',description:'Men Metal Anthracite Dial Analog Watch',starsCount:{stars:"rating-50.png",count:787809},rupees:4595},
-{image:'image24.jpg',description:'Sonata White Dial Analog watch For Men-NR1013SM01',starsCount:{stars:"rating-50.png",count:787809},rupees:719},
-{image:'image25.jpg',description:'HEMT Analog Multi Color Dial Mens Watch-HM-GR092-',starsCount:{stars:"rating-50.png",count:787809},rupees:279}
+{image:'image7.jpg',description:'Fusion Analog Brown Dial Mens Watch',starsCount:{stars:"rating-50.png",count:787},rupees:4595},
+{image:'image22.jpg',description:'Neo Iv Analog Black Dial Mens Watch',starsCount:{stars:"rating-50.png",count:7878},rupees:6155},
+{image:'image23.jpg',description:'Men Metal Anthracite Dial Analog Watch',starsCount:{stars:"rating-50.png",count:7879},rupees:4595},
+{image:'image24.jpg',description:'Sonata White Dial Analog watch For Men-NR1013SM01',starsCount:{stars:"rating-50.png",count:780},rupees:719},
+{image:'image25.jpg',description:'HEMT Analog Multi Color Dial Mens Watch-HM-GR092-',starsCount:{stars:"rating-50.png",count:809},rupees:279}
 ];  
  export function HtmlCreationPhaseI(){
     let htmlGeneratePhaseI =  ``;
